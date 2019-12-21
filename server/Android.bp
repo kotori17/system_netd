@@ -113,7 +113,7 @@ cc_library_static {
         local_include_dirs: ["binder"],
     },
     product_variables: {
-        aosp: {
+        komodo: {
             needs_netd_direct_connect_rule: {
                 cflags: ["-DNEEDS_NETD_DIRECT_CONNECT_RULE"],
             },
